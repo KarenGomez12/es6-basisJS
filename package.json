@@ -1,0 +1,33 @@
+{
+  "name": "es6-basis",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "proyecto de aprendizaje es6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenGomez12/es6-basisJS.git"
+  },
+  "keywords": [
+    "arreglos",
+    "funciones",
+    "objetos"
+  ],
+  "author": "Karen Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarenGomez12/es6-basisJS/issues"
+  },
+  "homepage": "https://github.com/KarenGomez12/es6-basisJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "color": "^4.2.3",
+    "colors": "^1.4.0"
+  }
+}
