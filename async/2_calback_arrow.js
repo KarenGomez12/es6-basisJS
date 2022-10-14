@@ -14,17 +14,18 @@ const fallo = (status)=> {
     console.log(status)
 }
 
+
 const get_data = (endpoint, exito, fallo) =>{
-    //2. Creamos el objeto de conexion
-    let http = new XMLHttpRequest
-    //3. Abrir conexcion a la API
+    //1. Creamos el objeto de conexion
+    let http = new XMLHttpRequest();
+    //2. Abrir conexcion a la API
     http.open('get', endpoint)
-    //4. Enviar la solicitud(request) a la API
+    //3. Enviar la solicitud(request) a la API
     http.send()
-    //5. Hacer el tratamiento de la response
+    //4. Hacer el tratamiento de la response
     http.onload = () => {
         if(http.status === 200){
-        exito(http.responseText)
+            exito(http.responseText)
         }
         else{
             fallo(http.status)
