@@ -1,12 +1,11 @@
 {
   "name": "es6-basis",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "proyecto de aprendizaje es6",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon async/1_calback_xml.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,7 @@
   },
   "dependencies": {
     "color": "^4.2.3",
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }

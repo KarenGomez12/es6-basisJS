@@ -1,4 +1,4 @@
-import { materias } from "./materias.js";
+//import { materias } from "./materias.js";
 /*
 //let: varibles e identificadores simples:
 //number 
