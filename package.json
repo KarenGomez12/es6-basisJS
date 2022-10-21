@@ -5,7 +5,7 @@
   "description": "proyecto de aprendizaje es6",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon promises/1_simple.js"
+    "dev": "nodemon evidencias/epromises.js"
   },
   "repository": {
     "type": "git",
